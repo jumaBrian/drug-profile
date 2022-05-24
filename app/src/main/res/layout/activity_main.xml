@@ -4,12 +4,16 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="horizontal"
+    android:background="@color/material_dynamic_neutral80"
+    android:orientation="vertical"
     tools:context=".MainActivity">
 
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:srcCompat="@drawable/ic_launcher_foreground" />
+        android:layout_gravity="center"
+        app:srcCompat="@drawable/ic_launcher_foreground"
+        tools:ignore="ImageContrastCheck"
+        android:contentDescription="@string/drug_image" />
 </androidx.appcompat.widget.LinearLayoutCompat>

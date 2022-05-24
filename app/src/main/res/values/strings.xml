@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">DRUG PROFILE</string>
+    <string name="drug_image">"image represents drug "</string>
 </resources>
