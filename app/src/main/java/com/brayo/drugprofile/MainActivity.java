@@ -2,8 +2,10 @@ package com.brayo.drugprofile;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Context;
 import android.os.Bundle;
 import android.view.View;
+import android.view.inputmethod.InputMethodManager;
 import android.widget.EditText;
 import android.widget.TextView;
 
@@ -25,5 +27,9 @@ public class MainActivity extends AppCompatActivity {
     public void addDrugComposition(View view) {
         drugComposition.setText(String.format("Ingredients: %s", enterDrugComposition.getText().toString().trim()));
         drugComposition.setVisibility(View.VISIBLE);
+
+        // hide keyboard after input
+        InputMethodManager inputMethodManager = (InputMethodManager) getSystemService(Context.INPUT_METHOD_SERVICE);
+        inputMethodManager.hideSoftInputFromWindow(view.getWindowToken(), 0);
     }
 }
