@@ -42,10 +42,12 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:padding="@dimen/button_padding"
-        android:text="@string/button_text" />
+        android:text="@string/button_text"
+        android:onClick="addDrugComposition"
+        />
 
     <TextView
-        android:id="@+id/textView3"
+        android:id="@+id/drug_composition"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textSize="24sp"
