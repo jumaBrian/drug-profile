@@ -3,4 +3,5 @@
     <dimen name="name_padding">8dp</dimen>
     <dimen name="drug_description_padding">10dp</dimen>
     <dimen name="drug_description_margin">6dp</dimen>
+    <dimen name="button_padding">3dp</dimen>
 </resources>
