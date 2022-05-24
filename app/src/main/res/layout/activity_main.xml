@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/material_dynamic_neutral80"
+    android:background="@color/teal_200"
     android:orientation="vertical"
     tools:context=".MainActivity">
 
@@ -19,12 +19,12 @@
 
     <TextView
         android:id="@+id/textView"
+        style="@style/text_display"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/profile_name"
         android:textSize="28sp"
-        android:textStyle="bold"
-        style="@style/text_display" />
+        android:textStyle="bold" />
 
     <EditText
         android:id="@+id/enter_composition"
@@ -32,24 +32,25 @@
         android:layout_height="wrap_content"
         android:ems="10"
         android:hint="@string/drug_composition"
+        android:importantForAutofill="no"
         android:inputType="textPersonName"
-        tools:ignore="TouchTargetSizeCheck,TextContrastCheck"
-        android:importantForAutofill="no" />
+        tools:ignore="TouchTargetSizeCheck,TextContrastCheck" />
 
     <Button
         android:id="@+id/submit_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
+        android:onClick="addDrugComposition"
         android:padding="@dimen/button_padding"
         android:text="@string/button_text"
-        android:onClick="addDrugComposition"
-        />
+        tools:ignore="TextContrastCheck" />
 
     <TextView
         android:id="@+id/drug_composition"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:padding="@dimen/button_padding"
         android:textSize="24sp"
         android:visibility="invisible" />
 
