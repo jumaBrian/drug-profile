@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">DRUG PROFILE</string>
     <string name="drug_image">"image represents drug "</string>
+    <string name="profile_name">CLOTRIMAZOLE LOTION</string>
 </resources>
