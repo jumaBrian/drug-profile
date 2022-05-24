@@ -2,4 +2,8 @@
     <string name="app_name">DRUG PROFILE</string>
     <string name="drug_image">"image represents drug "</string>
     <string name="profile_name">CLOTRIMAZOLE LOTION</string>
+    <string name="drug_composition">Composition: Clotrimazole, Base non aqueuse</string>
+    <string name="drug_description">
+        \nThis medication is used to treat vaginal yeast infections. Clotrimazole reduces vaginal burning, itching, and discharge that may occur with this condition. This medication is an azole antifungal. It works by stopping the growth of yeast (fungus) that causes the infection. The vaginal product comes in 2 forms (a vaginal cream or tablet). Some products come with a skin cream to be applied to the area around the outside of the vagina.Ask your doctor before using this medication for self-treatment if this is your first vaginal infection. This medication only works for vaginal fungal infections. You may have a different type of infection (such as bacterial vaginosis) and may need a different medication.If you have fever, chills, flu-like symptoms, stomach/abdominal pain, or a bad-smelling vaginal discharge, do not use this medication. Contact your doctor right away because these may be signs of a more serious infection.
+    </string>
 </resources>

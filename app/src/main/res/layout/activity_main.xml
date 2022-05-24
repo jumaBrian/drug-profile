@@ -21,9 +21,29 @@
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:padding="@dimen/name_padding"
         android:text="@string/profile_name"
         android:textSize="28sp"
-        android:textStyle="bold" />
+        android:textStyle="bold"
+        style="@style/text_display" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Name"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/drug_description"
+            tools:ignore="TextContrastCheck" />
+    </ScrollView>
 </androidx.appcompat.widget.LinearLayoutCompat>
